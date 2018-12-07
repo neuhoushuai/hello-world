@@ -1,0 +1,3 @@
+pip 管理python包的工具 2.7.9以上自带
+pip --version判断是否安装
+pip -i 更换源避免被墙 慢
