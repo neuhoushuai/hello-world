@@ -56,11 +56,27 @@ exp用iter_var中的内容
 print [math.pow(x,2) for x in range(1,11) if x%2==0]
 
 """
-排序
+排序？？
 """
 a=[222,44,66,33,66]
 b=a.sort()
 print b
 if b == None: #b is None
     print 'haha'
-    
+
+"""
+homework
+"""
+a=[1,2,3,4,5,333,11,44]
+print a[3:6]
+a=[1,2,3]
+b=[4,5,6]
+print a+b
+a.extend(b)
+print a
+a=[1,99,33,44,55,22]
+a.append((11,33,54))
+a=[1,99,33,44,55,22]
+a.insert(3,101)
+a.insert(1,2)
+a=[x for x in range(21,101) if x%2==0]
